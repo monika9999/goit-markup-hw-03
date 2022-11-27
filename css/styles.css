@@ -1,0 +1,277 @@
+/*Kolory*/
+:root { 
+    --bground-color: #2F303A;
+    --text-color: #757575;
+    --selection-color: #009999;
+    --detailing-color: #2196F3;
+    --standard-color:#212121;
+    --header-color: #FFFFFF;
+}
+
+/*NAVIGATION*/
+.logo {
+    font-family: Raleway;
+    font-style: bold;
+    font-size: 1.625rem;
+    letter-spacing: 0.03em;
+    color: var(--detailing-color);
+    text-decoration: none;
+}
+
+.logo-part {
+    font-family: Raleway;
+    font-style: bold;
+    font-size: 1.625 rem;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+    color: var(--standard-color);
+    text-decoration: none;
+}
+
+.link-color {
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+    color: var(--detailing-color);
+    text-decoration: none;
+}
+
+.link-mail {
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+    color: var(--detailing-color);
+    text-decoration: none;
+}
+
+.link-tel {
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/*HEADER - DARK BACKGROUND*/
+.darkbg-text { 
+    color: var(--header-color);
+    font-size: 2.75rem; 
+    text-align: center;
+    line-height: 1.16;
+    letter-spacing: 0.06em;
+}
+
+.darkbg-botton {
+    color: var(--header-color);
+    font-weight: 700;
+    background-color: var(--detailing-color);
+    border: none;
+    line-height: 1.60;
+    padding: 10px 41px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer
+}
+
+.darkbg {
+    background-color: var(--standard-color);
+}
+
+/*COLUMNS "LOREM IPSUM..."*/
+.column {
+    list-style-type:none;
+}
+
+.column-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.column-text {
+    color: var(--text-color);
+    font-size: 0.875rem;
+    line-height: 1.46;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+/*WHAT WE DO*/
+.second-header {
+    font-weight: 700;
+    font-size: 2.25rem;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.job {
+    list-style-type:none;
+}
+
+/*OUR TEAM*/
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-list {
+    list-style-type:none;
+}
+
+.team-block {
+    background-color: #FFFFFF;
+    display: block;
+    width: 270px;
+    height: 368px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.team-person {
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team-position {
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+/*FOOTER*/
+.logo-part-footer {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 1.625rem;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.address {
+    font-size: 0.875rem;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+
+.mail-tel-footer {
+    font-size: 0.875rem;
+    line-height: 1.46;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+    text-decoration: none;
+}
+
+/*PORTFOLIO*/
+.botton {
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.39;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+    background-color: var(--detailing-color);
+    border: none;
+    padding: 6px 22px;
+    cursor: pointer
+}
+
+.botton-select {
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.39;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+    border: none;
+    padding: 6px 22px;
+    cursor: pointer
+}
+
+.page-list {
+    list-style-type:none;
+}
+
+.page-block {
+    background-color: #FFFFFF;
+    display: block;
+    width: 370px;
+    height: 404px;
+    box-shadow: 0px 3px 1px #000000 10%, 
+    0px 1px 2px #000000 80%,
+    0px 2px 2px #000000 12%;
+}
+
+.page-title {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.71;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.page-text {
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+body {
+    font-family: Roboto;
+    color: var(--standard-color)
+}
+
+/*PSEUDOCLASSES*/
+.logo:hover, .logo:focus {
+    color:var(--selection-color);
+}
+
+.logo-part:hover, .logo-part:focus {
+        color:var(--selection-color);
+}
+
+.logo-part-footer:hover,.logo-part-footer:focus {
+    color:var(--selection-color);
+}
+
+.link:hover, .link:focus {
+    color:var(--selection-color);
+}
+
+.link-color:hover, .link-color:focus {
+    color:var(--selection-color);
+}
+
+.link-mail:hover, .link-mail:focus {
+    color:var(--selection-color);
+}
+
+.link-tel:hover, .link-tel:focus {
+    color:var(--selection-color);
+}
+
+.mail-tel-footer:hover, .mail-tel-footer:focus {
+    color:var(--selection-color);
+}
+
+.botton:hover, .botton:focus 
+{background-color:var(--selection-color);
+}
+
+.darkbg-botton:hover, .darkbg-botton:focus 
+{background-color:var(--selection-color);
+}
+
+.botton-select:hover, .botton-select:focus 
+{background-color:var(--selection-color);
+}
