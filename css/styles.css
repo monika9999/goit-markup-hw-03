@@ -28,6 +28,11 @@
   align-items: center;
 }
 
+.section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+
 /*NAVIGATION*/
 
 .botton-border {
@@ -40,11 +45,6 @@
   align-items: center;
 }
 
-.conteiner-flex {
-  display: flex;
-  align-items: center;
-}
-
 .logo {
   font-family: Raleway;
   font-style: bold;
@@ -52,7 +52,7 @@
   letter-spacing: 0.03em;
   color: var(--detailing-color);
   text-decoration: none;
-  padding: 24px 47px 25px 0;
+  justify-content: center;
 }
 
 .logo-part {
@@ -108,7 +108,7 @@
   text-transform: uppercase;
   max-width: 696px;
   margin: auto;
-  padding-top: 200px;
+  padding-top: 106px;
   padding-bottom: 30px;
 }
 
@@ -141,7 +141,6 @@
 /*COLUMNS "LOREM IPSUM..."*/
 .column {
   list-style-type: none;
-  margin-top: 94px;
 }
 
 .column-title {
@@ -158,21 +157,25 @@
   line-height: 1.46;
   letter-spacing: 0.03em;
   text-align: left;
+  color: var(--text-color);
 }
 
+.conteiner-flex {
+    display: flex;
+    align-items: center;
+  }
+  
 /*WHAT WE DO*/
 .second-header {
   font-weight: 700;
   font-size: 2.25rem;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
 .job {
   list-style-type: none;
-  margin-bottom: 94px;
 }
 
 .conteiner-flex-job {
@@ -182,11 +185,14 @@
   flex-wrap: wrap;
 }
 
+.section-one {
+    padding-bottom: 94px;
+  }
+
 /*OUR TEAM*/
 .team {
   background-color: #f5f4fa;
   height: 648px;
-  padding-top: 94px;
 }
 
 .second-header-team {
@@ -241,7 +247,6 @@
 
 .footer-bg {
   background-color: var(--bground-color);
-  padding: 60px 0;
 }
 
 .logo-part-footer {
@@ -293,7 +298,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 100px 300px 50px 300px;
+  padding: 0 300px 50px 300px;
 }
 
 .botton {
@@ -345,15 +350,15 @@
   gap: 30px;
 }
 
-.portfolio {
-  padding-bottom: 94px;
-}
+
 
 /*BODY*/
 body {
   font-family: Roboto, sans-serif;
   color: var(--standard-color);
 }
+
+
 
 /*PSEUDOCLASSES*/
 .focus:hover,
