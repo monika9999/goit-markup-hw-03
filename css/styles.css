@@ -9,6 +9,11 @@
 }
 
 /*GLOBAL STYLES*/
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--standard-color);
+}
+
 *,
 *::before,
 *::after {
@@ -29,9 +34,9 @@
 }
 
 .section {
-    padding-bottom: 94px;
-    padding-top: 94px;
-  }
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 
 /*NAVIGATION*/
 
@@ -69,7 +74,7 @@
   display: flex;
 }
 
-.nav-list li {
+.nav-list-margin {
   margin: 32px 0 32px 46px;
 }
 
@@ -161,10 +166,10 @@
 }
 
 .conteiner-flex {
-    display: flex;
-    align-items: center;
-  }
-  
+  display: flex;
+  align-items: center;
+}
+
 /*WHAT WE DO*/
 .second-header {
   font-weight: 700;
@@ -186,8 +191,8 @@
 }
 
 .section-one {
-    padding-bottom: 94px;
-  }
+  padding-bottom: 94px;
+}
 
 /*OUR TEAM*/
 .team {
@@ -349,16 +354,6 @@
   flex-wrap: wrap;
   gap: 30px;
 }
-
-
-
-/*BODY*/
-body {
-  font-family: Roboto, sans-serif;
-  color: var(--standard-color);
-}
-
-
 
 /*PSEUDOCLASSES*/
 .focus:hover,
